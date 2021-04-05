@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "npm build"
+        "pre-push": "npm build"
     }
 },
   "author": "Junior Denir",
