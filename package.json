@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm rum lint && npm run build ; npm run release"
+      "pre-commit": "npm run lint && npm run build ; npm run release"
     }
   },
   "author": "Junior Denir",
