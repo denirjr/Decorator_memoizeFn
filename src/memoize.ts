@@ -1,4 +1,4 @@
-export const memoizeFn = (): any => {
+export const memoize = (): any => {
   return (
     target: any,
     key: string | symbol,
@@ -11,10 +11,10 @@ export const memoizeFn = (): any => {
       const argumentTaken = args[0];
 
       if (argumentTaken in cache) {
-        console.log('GET CACHE');
+        console.log("Fetching from cache", argumentTaken);
         return cache[argumentTaken];
       } else {
-        console.log('NO CACHE');
+        console.log("Calculating result", argumentTaken);
         const result = fn(argumentTaken);
         cache[argumentTaken] = result;
         return result;

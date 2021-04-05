@@ -1,11 +1,11 @@
-import { memoizeFn } from "./index";
+import { memoize } from "../index";
 
 export class App {
   constructor(public value: number) {
     this.some(value);
   }
 
-  @memoizeFn()
+  @memoize()
   private some(n: number): number {
     return n + n;
   }

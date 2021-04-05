@@ -1,21 +1,16 @@
 {
   "name": "memoizefn-decorator-ts",
   "version": "1.1.0",
-  "description": "memoize decorator to use in ts project",
+  "description": "memoize decorator to use in ts projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start:dev": "ts-node app/app.ts",
+    "start:dev": "ts-node src/app.ts",
     "lint": "eslint . --ext .ts",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "husky": {
-    "hooks": {
-        "pre-push": "npm build"
-    }
-},
   "author": "Junior Denir",
   "license": "ISC",
   "keywords": [],
@@ -24,7 +19,6 @@
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "eslint": "^7.23.0",
-    "husky": "^6.0.0",
     "standard-version": "^9.1.1",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"

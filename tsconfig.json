@@ -5,8 +5,9 @@
     "experimentalDecorators": true,
     "declaration": true,
   },
-  "include": ["app/**/*"],
+  "include": ["src/**/*", "index.ts"],
   "exclude": [
+    "./src/app.ts",
     "node_modules",
     "dist",
     "test"
