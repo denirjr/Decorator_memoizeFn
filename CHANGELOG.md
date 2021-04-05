@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/denirjr/decorator_memoize_ts/compare/v1.2.2...v1.2.3) (2021-04-05)
+
+
+### Bug Fixes
+
+* **master:** adjust readme ([b54e06f](https://github.com/denirjr/decorator_memoize_ts/commit/b54e06f7ee035fc5c5005453a403817fe7d3e13c))
+
 ### [1.2.2](https://github.com/denirjr/decorator_memoize_ts/compare/v1.2.1...v1.2.2) (2021-04-05)
 
 ### [1.2.1](https://github.com/denirjr/decorator_memoize_ts/compare/v1.2.0...v1.2.1) (2021-04-05)
