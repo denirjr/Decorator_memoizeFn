@@ -11,8 +11,10 @@ export const memoizeFn = (): any => {
       const argumentTaken = args[0];
 
       if (argumentTaken in cache) {
+        console.log('GET CACHE');
         return cache[argumentTaken];
       } else {
+        console.log('NO CACHE');
         const result = fn(argumentTaken);
         cache[argumentTaken] = result;
         return result;

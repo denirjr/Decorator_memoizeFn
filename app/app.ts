@@ -1,4 +1,4 @@
-import { memoizeFn } from "../app/decorators/index";
+import { memoizeFn } from "./index";
 
 export class App {
   constructor(public value: number) {

@@ -1,9 +1,9 @@
 {
-  "name": "memoize-decorator",
+  "name": "memoizefn-decorator-ts",
   "version": "1.0.1",
   "description": "memoize decorator to use in ts project",
-  "main": "dist/decorators/index.js",
-  "types": "dist/decorators/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start:dev": "ts-node app/app.ts",
