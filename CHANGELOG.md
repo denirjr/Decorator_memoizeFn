@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/denirjr/decorator_memoize_ts/compare/v1.2.4...v1.2.5) (2021-04-05)
+
+
+### Bug Fixes
+
+* **master:** rename function decorator ([73ee846](https://github.com/denirjr/decorator_memoize_ts/commit/73ee84677ac231987697c86c152724bda00a3b16))
+
 ### [1.2.4](https://github.com/denirjr/decorator_memoize_ts/compare/v1.2.3...v1.2.4) (2021-04-05)
 
 
