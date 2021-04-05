@@ -2,7 +2,7 @@
 Ts decorator memoization that caches the result of the different arguments.
 
 Example:
-
+```
 import { memoize } from "memoizefn-decorator-ts";
 
 export class App {
@@ -22,3 +22,5 @@ app(3); // calculated
 app(3); // cached
 app(4); // calculated
 app(4); // cached
+
+```
