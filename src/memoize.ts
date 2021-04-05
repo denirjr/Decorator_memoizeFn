@@ -11,10 +11,8 @@ export const memoize = (): any => {
       const argumentTaken = args[0];
 
       if (argumentTaken in cache) {
-        console.log("Fetching from cache", argumentTaken);
         return cache[argumentTaken];
       } else {
-        console.log("Calculating result", argumentTaken);
         const result = fn(argumentTaken);
         cache[argumentTaken] = result;
         return result;

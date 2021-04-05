@@ -1,7 +1,7 @@
 {
   "name": "memoizefn-decorator-ts",
   "version": "1.2.0",
-  "description": "memoize decorator to use in ts projects",
+  "description": "Ts decorator memoization that caches the result of the different arguments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,7 +13,13 @@
   },
   "author": "Junior Denir",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "memoize",
+    "ts",
+    "angular",
+    "decorator",
+    "cache"
+  ],
   "devDependencies": {
     "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
