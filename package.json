@@ -1,6 +1,6 @@
 {
   "name": "memoizefn-decorator-ts",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Ts decorator memoization that caches the result of the different arguments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
