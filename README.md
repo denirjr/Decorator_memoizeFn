@@ -10,7 +10,7 @@ export class App {
     this.some(value);
   }
 
-  @memoize()
+  @Memoize()
   private some(n: number): number {
     return n + n;
   }

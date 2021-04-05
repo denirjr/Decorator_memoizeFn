@@ -1,4 +1,4 @@
-export const memoize = (): any => {
+export const Memoize = (): any => {
   return (
     target: any,
     key: string | symbol,
