@@ -1,6 +1,6 @@
 {
   "name": "memoize-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "memoize decorator to use in ts project",
   "main": "dist/decorators/index.js",
   "types": "dist/decorators/index.d.ts",
